@@ -9,7 +9,7 @@ class User(BaseModel):
 users_db = [
     User(id=1, username="user1", email="user1@example.com"),
     User(id=2, username="user2", email="user2@example.com"),
-    User(id=3, username="user3", email="user3@example.com"),
+    User(id=3, username="user3", email="user3@example.com")
 ]
 
 app = FastAPI()
